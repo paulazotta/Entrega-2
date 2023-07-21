@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <!-- VINCULACIÓN A CSS-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!--LOGO FAVICON-->
+    <link rel="shortcut icon" href="IMAGES/icon2.ico" type="image/x-icon">
+    
+</head>
+<body>
+    <header>
+        <!--Acá va el logo-->
+        <img src="IMAGES/LOGO_hey.png" alt="Logo Hey Producciones">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="categorias-nav-bar">Home</a></li>
+                <li><a href="#servicios" class="categorias-nav-bar">Servicios</a></li>
+                <li class="dropdown">
+                    <button class="dropbtn">lista</button>
+                        <div class="dropdown-content"
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                </li>
+                <li><a href="HTML/contacto.html" class="categorias-nav-bar">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="div-brief">
+        <h1>¡Conocenos!</h1>
+     <!--Acá va el brief: quiénes somos, qué hacemos-->
+        <p> Somos un equipo de diseñadores audiovisuales especializados en fotografía, filmación y edición. <br> Realizamos cobertura de eventos tales como casamientos, fiestas de 15 y presentaciones. <br> Creamos contenido audiovisual para tu marca. <br> Trabajamos también con fotografía y filmación aérea con drone.
+        </p>
+    </div>
+    
+    <!--Acá va el video de presentación, ahora pongo uno random. Se ve como imagen, no se qué formatos acepta para video, el que puse es .mp4-->
+    <video src="IMAGES/Video_presentación_1.mp4" autoplay muted>
+
+    </video>
+    <h2 id="servicios">🙌🏼 Estos son los servicios que ofrecemos 👇🏼</h2>
+    <section class="flex-container">
+        <div class="container">
+            <img src="IMAGES/bodas_01.jpg" alt="foto1" class="imagenes-servicios">
+            <a href="HTML/fiestas.html" class="enlaces-servicios">Fiestas</a>
+        </div>
+        <div class="container">
+            <img src="IMAGES/bodas_02.jpg" alt="foto2" class="imagenes-servicios">
+            <a href="HTML/productos.html" class="enlaces-servicios">Productos</a>  
+        </div>
+        <div class="container">
+            <img src="IMAGES/drone_01.jpg" alt="foto3" class="imagenes-servicios">
+            <a href="HTML/drone.html" class="enlaces-servicios">Drone</a>    
+        </div>
+    </section>
+
+    <footer class="footer-flex-container">
+        <img src="IMAGES/LOGO_hey.png" alt="Logo Hey Producciones" class="footer-logo-hey">
+        <a href="https://www.instagram.com/produccioneshey/" class="enlace-instagram">Instagram</a>
+    </footer>
+
+</body>
+</html>

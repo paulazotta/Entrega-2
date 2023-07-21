@@ -1,0 +1,307 @@
+/* GENERALES */
+@font-face {
+    font-family: ROBOTO-MEDIUM;
+    src: url(../TIPOGRAFÍAS/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: ROBOTO-THIN;
+    src: url(../TIPOGRAFÍAS/Roboto-Thin.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------------HEADER-----------------------*/
+header{
+    /*Está bien aplicar height acá?
+    height: 90px;
+    */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;  
+    position: fixed;
+    background-color: white;
+}
+header img{
+    width: 12%;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+/*ESTE ME PARECE RARO QUE ESTE BIEN, NO SE CÓMO RESOLVERLO*/
+header nav ul li{
+    margin: 0 10px;
+}
+
+.categorias-nav-bar{
+    font-family: ROBOTO-MEDIUM;
+    font-size: 70%;
+    text-decoration: none;
+    color:black;
+}
+.categorias-nav-bar:hover{
+    font-family: ROBOTO-MEDIUM;
+    font-size: 80%;
+    text-decoration: none;
+    background-color: pink;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+
+}
+
+/*-----------------------FOOTER-----------------------*/
+footer{
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+    padding: 8px;
+    
+    /*Quiero que esto sea más chico, con qué lo hago?*/
+}
+
+footer img{
+    width: 10%;
+}
+.enlace-instagram{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: ROBOTO-THIN;
+    background-color: #e6e6fa;
+    color: #9696ea;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 6px;
+   
+}
+.enlace-instagram:hover{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: ROBOTO-THIN;
+    background-color:#9696ea ;
+    color: white ;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 6px;
+    
+}
+
+/* -----------------------INDEX ---------------------------*/
+.div-brief{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-top: 10%;
+    background-color:pink
+    
+}
+h1{
+    font-family: ROBOTO-MEDIUM;
+    font-size: 120%;
+    color: #536895;
+    align-items: center;
+    /*height: 20px;*/
+}
+p{
+    font-family: ROBOTO-THIN;
+    font-size: 60%;
+    
+    color: black;
+    padding: 15px 0px;
+}
+video{
+    width: 100%;
+}
+
+.flex-container img{
+    width: 23rem;
+}
+h2{
+    /*display: flex;
+    justify-content: center;
+    flex-wrap: wrap;*/
+    background-color: #9696ea;
+    color: #f0f0f0;  
+    font-family: ROBOTO-THIN;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 2%;
+}
+/*---------------PRUEBA TEXTO SOBRE IMAGEN----------------*/
+.container{
+    width: 367px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    border-radius: 20px;
+    box-shadow: 3px 1px 12px grey;
+}
+.container img{
+    width: 23rem;
+    opacity: 70%;
+}
+.container a{
+    font-family: ROBOTO-THIN;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #9696ea;
+    background-color: white;
+    text-shadow: 2px 2px 20px black;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 95%;
+}
+.container a:hover{
+    font-family: ROBOTO-THIN;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+    background-color:#a8a8a8;
+    padding: 6px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*text-shadow: 0 0 8px rgba(0, 0, 0, 0.8)*/
+    opacity: 95%;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*--------------- FIN PRUEBA TEXTO SOBRE LA IMAGEN----------------*/
+
+/*.enlaces-servicios{
+    text-decoration: none;
+    background-color: bisque;
+    color: black;
+    margin: 6rem;
+    /*position: absolute;
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);
+}
+.enlaces-servicios:hover{
+    text-decoration: underline;
+    background-color: aqua;
+    color: #9696ea;
+    margin: 6rem;
+}*/
+
+
+
+/*--------------------------CONTACTO---------------------------------*/
+.frase1{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: ROBOTO-MEDIUM;
+    background-color: pink;
+    color: #536895;
+    font-size: 60%;
+    text-align: left;  
+    padding-top: 18%;
+
+}
+.frase2{
+    font-family: ROBOTO-THIN;
+    background-color: #e6e6fa;
+    color: #536895;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid #9696ea;
+    border-radius: 7px;
+   
+}
+body form{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 15%;
+}
+body form input{
+    font-family: ROBOTO-THIN;
+    font-size: 15px;
+    display: flex;
+}
+body form select{
+    font-family: ROBOTO-THIN;
+    font-size: 15px;
+    display: flex;   
+}
+.nombre_apellido{
+    color:black
+
+}
+
+
+/*-----------------------FIESTAS-----------------------*/
+
+.fiestas-frases{
+    font-family: ROBOTO-MEDIUM;
+    font-size: 35px;
+    background-color: white;
+    color: #536895;
+}
+.boton-inicio{
+    background-color: black;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+.fiestas-frases2 {
+    font-family: ROBOTO-MEDIUM;
+    font-size: 35px;
+    background-color: white;
+    color: #536895;
+   text-align: right;
+}
+.fotos_fiestas{
+    width: 50%;
+}
+.div-fiestas-fotos{
+    display: flex;
+    justify-content: center;
+}
+.div-fiestas{
+    background-color: #9696ea;
+    padding: 9%;
+}
+.carrousel{
+    width: 50%;
+}
+/*-----------------------PRODUCTOS-----------------------*/
+.fotos_productos{
+    width: 45%;
+}
+.cuadrado-productos{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+    padding-bottom: 4%;
+}

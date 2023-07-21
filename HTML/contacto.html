@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <!--LOGO FAVICON-->
+    <link rel="shortcut icon" href="../IMAGES/icon2.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <!--Acá va el logo-->
+        <img src="../IMAGES/LOGO_hey.png" alt="Logo Hey Producciones">
+        <nav>
+            <ul>
+                <li><a href="../index.html" class="categorias-nav-bar">Home</a></li>
+                <li><a href="../index.html#servicios" class="categorias-nav-bar">Servicios</a></li>
+                <li><a href="../HTML/contacto.html" class="categorias-nav-bar">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--<a href="../index.html" class="boton-inicio">Ir al inicio</a>-->
+
+    <!--FORMULARIO-->
+    <p class="frase1">Completá el siguiente formulario y nos pondremos en contacto con vos a la brevedad</p>
+    <form action="form.php" method="post">
+        <!-- <label for="">Nombre y Apellido</label>-->
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido" class="nombre_apellido">
+        <!-- <label for="">Mail</label>-->
+        <input type="text" name="Mail" id="Mail" placeholder="Mail">
+        <!--<label for="">Teléfono</label>-->
+        <input type="text" name="Celular" id="movil" placeholder="Teléfono">
+        <!--Cuál es la diferencia entre name, id y label? puse una cosa distinta en cada una para ver qué se ve pero no entiendo por qué-->
+        <select name="" id="">Motivo de consulta
+            <option value="">Casamiento</option>
+            <option value="">Fiesta de 15</option>
+            <option value="">Foto Producto</option>
+            <option value="">Creación de contenido</option>
+            <option value="">Drone</option>
+        </select>
+        <!--<p>Si querés podés detallar acá tu consulta</p>-->
+            <textarea name="" id="" cols="10" rows="5">
+
+            </textarea>
+        <input type="submit" value="Enviar" class="boton-enviar">
+    </form>
+    <p class="frase2">Si preferís también podés enviarnos un mail a mail@gmail.com o escribirnos por WhatsApp al 11.1111.1111
+
+    </p>
+    <footer class="footer-flex-container">
+        <img src="../IMAGES/LOGO_hey.png" alt="Logo Hey Producciones" class="footer-logo-hey">
+        <a href="https://www.instagram.com/produccioneshey/" class="enlace-instagram">Instagram</a>
+    </footer>
+</body>
+</html>
