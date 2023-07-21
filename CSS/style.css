@@ -57,13 +57,9 @@ header nav ul li{
 /*-----------------------FOOTER-----------------------*/
 footer{
     background-color: pink;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-top: 1px solid black;
     padding: 8px;
-    
-    /*Quiero que esto sea más chico, con qué lo hago?*/
+    margin-top: auto;
 }
 
 footer img{
@@ -95,6 +91,11 @@ footer img{
 }
 
 /* -----------------------INDEX ---------------------------*/
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 .div-brief{
     display: flex;
     flex-wrap: wrap;
