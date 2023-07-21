@@ -60,6 +60,9 @@ footer{
     border-top: 1px solid black;
     padding: 8px;
     margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer img{
@@ -75,7 +78,6 @@ footer img{
     text-decoration: none;
     padding: 8px;
     border-radius: 6px;
-   
 }
 .enlace-instagram:hover{
     display: flex;
@@ -86,8 +88,7 @@ footer img{
     font-size: 15px;
     text-decoration: none;
     padding: 8px;
-    border-radius: 6px;
-    
+    border-radius: 6px;  
 }
 
 /* -----------------------INDEX ---------------------------*/
