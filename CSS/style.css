@@ -64,28 +64,30 @@ footer{
     justify-content: center;
     align-items: center;
 }
-
+.footer-items{
+    margin: 0 50px 0 0;
+}
 footer img{
-    width: 10%;
+    width: 5rem;
 }
 .enlace-instagram{
     display: flex;
-    flex-wrap: wrap;
+    margin-right: 20px;
     font-family: ROBOTO-THIN;
     background-color: #e6e6fa;
     color: #9696ea;
-    font-size: 15px;
+    font-size: 1rem;
     text-decoration: none;
     padding: 8px;
     border-radius: 6px;
 }
 .enlace-instagram:hover{
     display: flex;
-    flex-wrap: wrap;
+    margin-right: 20px;
     font-family: ROBOTO-THIN;
     background-color:#9696ea ;
     color: white ;
-    font-size: 15px;
+    font-size: 1rem;
     text-decoration: none;
     padding: 8px;
     border-radius: 6px;  
