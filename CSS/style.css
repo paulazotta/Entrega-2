@@ -54,7 +54,7 @@ header nav ul li{
 
 }
 
-/*-----------------------FOOTER-----------------------*/
+/*-----------FOOTER------------*/ /*NO ME TERMINA DE CONVENCER, EN WEB SE DEBERÍA VER UN POCO MÁS GRANDE Y EN RESPONSIVE UN POCO MÁS CHICO, LA VIDA NISMAN*/
 footer{
     background-color: pink;
     border-top: 1px solid black;
@@ -76,9 +76,9 @@ footer img{
     font-family: ROBOTO-THIN;
     background-color: #e6e6fa;
     color: #9696ea;
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-decoration: none;
-    padding: 8px;
+    padding: 7px;
     border-radius: 6px;
 }
 .enlace-instagram:hover{
@@ -87,9 +87,9 @@ footer img{
     font-family: ROBOTO-THIN;
     background-color:#9696ea ;
     color: white ;
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-decoration: none;
-    padding: 8px;
+    padding: 7px;
     border-radius: 6px;  
 }
 
