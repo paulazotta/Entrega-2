@@ -13,8 +13,9 @@
 }
 
 /*-----------------------HEADER-----------------------*/ /*ESTO YA ESTA MEDIANAMENTE DIGNO*/
-header{
-    background-color: aquamarine;
+header{ 
+    background-color: white;
+    border-bottom: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +24,8 @@ header{
 }
 header img{
     width: 12%;
+    margin-top: 2px;
+    margin-left: 2px;
     
 }
 header nav ul{
@@ -53,7 +56,7 @@ header nav ul li a{
 
 /*-----------FOOTER------------*/ /*NO ME TERMINA DE CONVENCER, EN WEB SE DEBERÍA VER UN POCO MÁS GRANDE Y EN RESPONSIVE UN POCO MÁS CHICO, LA VIDA NISMAN*/
 footer{
-    background-color: pink;
+    background-color: white;
     border-top: 1px solid black;
     padding: 8px;
     margin-top: auto;
@@ -100,10 +103,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-top: 3rem;
-
-    background-color: yellowgreen
-    
-    
+    background-color: #f0f0f0
 }
 .brief-flex-items{
     display: flex;
@@ -115,7 +115,7 @@ body{
 h1{
     font-family: ROBOTO-MEDIUM;
     font-size: 1.8rem;
-    color: #536895;
+    color: #9696ea;
     padding-top: 1.6%;
 }
 p{
