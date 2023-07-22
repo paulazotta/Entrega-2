@@ -12,47 +12,44 @@
     padding: 0;
 }
 
-/*-----------------------HEADER-----------------------*/
+/*-----------------------HEADER-----------------------*/ /*ESTO YA ESTA MEDIANAMENTE DIGNO*/
 header{
-    /*Está bien aplicar height acá?
-    height: 90px;
-    */
+    background-color: aquamarine;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 15px;  
+    align-items: center;
     position: fixed;
-    background-color: white;
+    padding: 0.7rem 0
 }
 header img{
     width: 12%;
+    
 }
 header nav ul{
     list-style: none;
-    display: flex;
+    display: flex;  
 }
-/*ESTE ME PARECE RARO QUE ESTE BIEN, NO SE CÓMO RESOLVERLO*/
-header nav ul li{
-    margin: 0 10px;
+header nav ul li a{
+    text-decoration: none;
+    margin: 5px;
 }
-
 .categorias-nav-bar{
     font-family: ROBOTO-MEDIUM;
-    font-size: 70%;
+    font-size: 1rem;
     text-decoration: none;
     color:black;
 }
 .categorias-nav-bar:hover{
     font-family: ROBOTO-MEDIUM;
-    font-size: 80%;
+    font-size: 1rem;
     text-decoration: none;
+    color: white;
     background-color: pink;
     border-radius: 4px;
     margin: 10px;
     padding: 5px;
-    color: white;
+} 
 
-}
 
 /*-----------FOOTER------------*/ /*NO ME TERMINA DE CONVENCER, EN WEB SE DEBERÍA VER UN POCO MÁS GRANDE Y EN RESPONSIVE UN POCO MÁS CHICO, LA VIDA NISMAN*/
 footer{
@@ -99,28 +96,33 @@ body{
     flex-direction: column;
     min-height: 100vh;
 }
-.div-brief{
+.brief-flex-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    background-color:pink
+    
+}
+.brief-flex-items{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    padding-top: 10%;
-    background-color:pink
     
 }
 h1{
     font-family: ROBOTO-MEDIUM;
-    font-size: 120%;
+    font-size: 1.8rem;
     color: #536895;
-    align-items: center;
-    /*height: 20px;*/
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
 }
 p{
     font-family: ROBOTO-THIN;
-    font-size: 60%;
-    
+    font-size: 1rem;
+    text-align: center;
     color: black;
-    padding: 15px 0px;
+    padding: 25px 0px;
+    margin: 0px 25px;
 }
 video{
     width: 100%;
