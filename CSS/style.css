@@ -100,28 +100,30 @@ body{
     display: flex;
     flex-direction: column;
     padding-top: 3rem;
-    background-color:pink
+
+    background-color: yellowgreen
+    
     
 }
 .brief-flex-items{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2.2rem;
+    /*padding-bottom: 1.3rem;*/
     
 }
 h1{
     font-family: ROBOTO-MEDIUM;
     font-size: 1.8rem;
     color: #536895;
-    text-align: center;
-    padding-bottom: 1rem;
-    padding-top: 0.5rem;
+    padding-top: 1.6%;
 }
 p{
     font-family: ROBOTO-THIN;
     font-size: 1rem;
     text-align: center;
     color: black;
-    padding: 25px 0px;
+    padding-bottom: 2.5%;
     margin: 0px 25px;
 }
 video{
