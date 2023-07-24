@@ -322,15 +322,27 @@ body form select{
     width: 50%;
 }
 /*-----------------------PRODUCTOS-----------------------*/
-.fotos_productos{
-    width: 45%;
-}
 .cuadrado-productos{
-    background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    padding-top: 7%;
-    padding-bottom: 4%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.fotos_productos{
+    width: 30rem;
+    max-width: 85%;
+    margin: 0.5rem;
+}
+.titulo-productos{
+    display: flex;
+    justify-content: center;
+    font-family: ROBOTO-MEDIUM;
+    text-align: center;
+    color: #536895;
+    font-size: 1.1rem;
+    padding-top: 13%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
 }
