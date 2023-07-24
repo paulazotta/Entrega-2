@@ -23,31 +23,30 @@
     <!--<a href="../index.html" class="boton-inicio">Ir al inicio</a>-->
 
     <!--FORMULARIO-->
-    <p class="frase1">Completá el siguiente formulario y nos pondremos en contacto con vos a la brevedad</p>
-    <form action="form.php" method="post">
-        <!-- <label for="">Nombre y Apellido</label>-->
-        <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido" class="nombre_apellido">
-        <!-- <label for="">Mail</label>-->
-        <input type="text" name="Mail" id="Mail" placeholder="Mail">
-        <!--<label for="">Teléfono</label>-->
-        <input type="text" name="Celular" id="movil" placeholder="Teléfono">
-        <!--Cuál es la diferencia entre name, id y label? puse una cosa distinta en cada una para ver qué se ve pero no entiendo por qué-->
-        <select name="" id="">Motivo de consulta
-            <option value="">Casamiento</option>
-            <option value="">Fiesta de 15</option>
-            <option value="">Foto Producto</option>
-            <option value="">Creación de contenido</option>
-            <option value="">Drone</option>
-        </select>
-        <!--<p>Si querés podés detallar acá tu consulta</p>-->
-            <textarea name="" id="" cols="10" rows="5">
-
+    <section class=""body-formulario>
+        <h1 class="frase1">Completá el siguiente formulario y nos pondremos en contacto con vos a la brevedad</h1> 
+        <form action="form.php" method="post" class="formulario">
+            <!-- <label for="">Nombre y Apellido</label>-->
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido" class="formulario-rellenar">
+            <!-- <label for="">Mail</label>-->
+            <input type="text" name="Mail" id="Mail" placeholder="Mail" class="formulario-rellenar">
+            <!--<label for="">Teléfono</label>-->
+            <input type="text" name="Celular" id="movil" placeholder="Teléfono" class="formulario-rellenar">
+            <!--Cuál es la diferencia entre name, id y label? puse una cosa distinta en cada una para ver qué se ve pero no entiendo por qué-->
+            <select name="" id="" class="formulario-rellenar">Motivo de consulta
+                <option value="">Casamiento</option>
+                <option value="">Fiesta de 15</option>
+                <option value="">Foto Producto</option>
+                <option value="">Creación de contenido</option>
+                <option value="">Drone</option>
+            </select>
+            <!--<p>Si querés podés detallar acá tu consulta</p>-->
+            <textarea name="" id="" cols="10" rows="5" class="formulario-rellenar">
             </textarea>
-        <input type="submit" value="Enviar" class="boton-enviar">
-    </form>
-    <p class="frase2">Si preferís también podés enviarnos un mail a mail@gmail.com o escribirnos por WhatsApp al 11.1111.1111
-
-    </p>
+            <input type="submit" value="Enviar" class="boton-enviar formulario-rellenar">
+        </form>
+        <p class="frase2">Si preferís también podés enviarnos un mail a mail@gmail.com o escribirnos por WhatsApp al 11.1111.1111</p>
+    </section>
     <footer>
         <img src="../IMAGES/LOGO_hey.png" alt="Logo Hey Producciones" class="footer-items">
         <a href="https://www.instagram.com/produccioneshey/" class="enlace-instagram footer-items" target="_blank">Instagram</a>

@@ -220,35 +220,56 @@ h2{
 
 
 /*--------------------------CONTACTO---------------------------------*/
+.body-formulario{
+    display: flex;
+    justify-content: center; 
+}
 .frase1{
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
+    justify-content: center;
     font-family: ROBOTO-MEDIUM;
-    background-color: pink;
+    text-align: center;
     color: #536895;
-    font-size: 60%;
-    text-align: left;  
-    padding-top: 18%;
-
+    font-size: 1.2rem;
+    margin: 0px 35px;
+    padding-top: 13%;
 }
 .frase2{
+    display: flex;
+    justify-content: center;
+    margin: 0px 35px;
     font-family: ROBOTO-THIN;
     background-color: #e6e6fa;
     color: #536895;
     font-size: 1rem;
     text-align: center;
-    margin-bottom: 10px;
     border: 1px solid #9696ea;
     border-radius: 7px;
-   
+    padding: 12px; 
+    margin-top: 2rem;
 }
-body form{
+.formulario{
     display: flex;
     flex-direction: column;
-    padding: 2% 15%;
+    max-width: 60%;
+    margin-top: 2rem;
+    padding-left: 20%; /*ESTE ES RARO, NO LO PUEDO CENTRAR*/
+    
 }
-body form input{
+.formulario-rellenar{
+    font-family: ROBOTO-THIN;
+    font-size: 1rem;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    border: 1px solid black;
+}
+.formulario-rellenar:active{
+    border: 2px solid #e6e6fa;
+}
+
+
+/*body form input{
     font-family: ROBOTO-THIN;
     font-size: 15px;
     display: flex;
@@ -259,9 +280,9 @@ body form select{
     display: flex;   
 }
 .nombre_apellido{
-    color:black
+    color:black*/
 
-}
+
 
 
 /*-----------------------FIESTAS-----------------------*/
