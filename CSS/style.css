@@ -25,22 +25,37 @@ header{
 header img{
     width: 12%;
     margin-top: 2px;
-    margin-left: 2px;
-    
+    margin-left: 2px;  
+}
+header nav div{
+    display: flex;
+
 }
 header nav ul{
     list-style: none;
-    display: flex;  
+    display: flex; 
+    margin: 7px 0 0 7px;
 }
 header nav ul li a{
-    text-decoration: none;
-    margin: 5px;
+    margin: 7px;
+}
+li{
+    float:right
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
 }
 .categorias-nav-bar{
     font-family: ROBOTO-MEDIUM;
     font-size: 1rem;
     text-decoration: none;
     color:black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 7px;
+    margin-top: 5px;   
 }
 .categorias-nav-bar:hover{
     font-family: ROBOTO-MEDIUM;
@@ -52,7 +67,39 @@ header nav ul li a{
     margin: 10px;
     padding: 5px;
 } 
-
+.ul-drop{
+    padding-bottom: 2%;
+}
+.div-drow{
+    padding-bottom: 2%;
+}
+.boton-dropdown{
+    font-family: ROBOTO-MEDIUM;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color:black;
+}
+.boton-dropdown:hover{
+    font-family: ROBOTO-MEDIUM;
+    font-size: 1rem;
+    text-decoration: none;
+    color:white;
+    background-color: pink;
+    padding: 1px;
+}
+.dropdown-item{
+    font-family: ROBOTO-THIN;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+.dropdown-item:hover{
+    font-family: ROBOTO-THIN;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #e6e6fa;
+    background-color: #9696ea;
+}
 
 /*-----------FOOTER------------*/ /*NO ME TERMINA DE CONVENCER, EN WEB SE DEBERÍA VER UN POCO MÁS GRANDE Y EN RESPONSIVE UN POCO MÁS CHICO, LA VIDA NISMAN*/
 footer{
@@ -109,9 +156,8 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 2.2rem;
-    /*padding-bottom: 1.3rem;*/
-    
 }
+
 h1{
     font-family: ROBOTO-MEDIUM;
     font-size: 1.8rem;
@@ -129,10 +175,7 @@ p{
 video{
     width: 100%;
 }
-
-.flex-container img{
-    width: 23rem;
-}
+/*RECTANGULOS TRES IMAGENES*/
 h2{
     /*display: flex;
     justify-content: center;
@@ -144,20 +187,29 @@ h2{
     text-align: center;
     padding: 2%;
 }
+
 /*---------------PRUEBA TEXTO SOBRE IMAGEN----------------*/
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .container{
     width: 367px;
-    height: 200px;
+    height: auto;
     overflow: hidden;
     position: relative;
     margin: 10px auto;
+    padding: 0;
     border-radius: 20px;
     box-shadow: 3px 1px 12px grey;
+    max-width: 85%;
 }
 .container img{
-    width: 23rem;
+    width: 25rem;
     opacity: 70%;
 }
+/*TEXTO SOBRA LA IMAGEN*/
 .container a{
     font-family: ROBOTO-THIN;
     font-size: 1.2rem;
@@ -188,36 +240,6 @@ h2{
     /*text-shadow: 0 0 8px rgba(0, 0, 0, 0.8)*/
     opacity: 95%;
 }
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.box-1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-/*--------------- FIN PRUEBA TEXTO SOBRE LA IMAGEN----------------*/
-
-/*.enlaces-servicios{
-    text-decoration: none;
-    background-color: bisque;
-    color: black;
-    margin: 6rem;
-    /*position: absolute;
-    /*left: 50%;*/
-    /*transform: translate(-50%, -50%);
-}
-.enlaces-servicios:hover{
-    text-decoration: underline;
-    background-color: aqua;
-    color: #9696ea;
-    margin: 6rem;
-}*/
-
-
 
 /*--------------------------CONTACTO---------------------------------*/
 .body-formulario{
@@ -287,40 +309,6 @@ body form select{
 
 /*-----------------------FIESTAS-----------------------*/
 
-.fiestas-frases{
-    font-family: ROBOTO-MEDIUM;
-    font-size: 35px;
-    background-color: white;
-    color: #536895;
-}
-.boton-inicio{
-    background-color: black;
-    color: aliceblue;
-    text-decoration: none;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 15px;
-}
-.fiestas-frases2 {
-    font-family: ROBOTO-MEDIUM;
-    font-size: 35px;
-    background-color: white;
-    color: #536895;
-   text-align: right;
-}
-.fotos_fiestas{
-    width: 50%;
-}
-.div-fiestas-fotos{
-    display: flex;
-    justify-content: center;
-}
-.div-fiestas{
-    background-color: #9696ea;
-    padding: 9%;
-}
-.carrousel{
-    width: 50%;
-}
 /*-----------------------PRODUCTOS-----------------------*/
 .cuadrado-productos{
     display: flex;
