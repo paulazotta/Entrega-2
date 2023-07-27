@@ -255,7 +255,7 @@ h2{
     color: #536895;
     font-size: 1.2rem;
     margin: 0px 35px;
-    padding-top: 13%;
+    padding-top: 25%;
 }
 .frase2{
     display: flex;
@@ -270,6 +270,7 @@ h2{
     border-radius: 7px;
     padding: 12px; 
     margin-top: 2rem;
+    padding-bottom: 5px;
 }
 .formulario{
     display: flex;
@@ -277,7 +278,6 @@ h2{
     max-width: 60%;
     margin-top: 2rem;
     padding-left: 20%; /*ESTE ES RARO, NO LO PUEDO CENTRAR*/
-    
 }
 .formulario-rellenar{
     font-family: ROBOTO-THIN;
