@@ -12,47 +12,72 @@
     <!--LOGO FAVICON-->
     <link rel="shortcut icon" href="../IMAGES/icon2.ico" type="image/x-icon">
 </head>
-<body>
-    <header>
-        <!--Acá va el logo-->
-        <img src="../IMAGES/LOGO_hey.png" alt="Logo Hey Producciones">
-        <nav>
-            <ul>
-                <li><a href="../index.html" class="categorias-nav-bar">Home</a></li>
-                <li><a href="../index.html#servicios" class="categorias-nav-bar">Servicios</a></li>
-                <li><a href="../HTML/contacto.html" class="categorias-nav-bar">Contacto</a></li>
+<body class="body.fiestas">
+  <header>
+    <!--Acá va el logo-->
+    <img src="../IMAGES/LOGO_hey.png" alt="Logo Hey Producciones">
+    <nav>
+        <ul>
+            <li><a href="../index.html" class="categorias-nav-bar">Home</a></li>
+            <!--<li><a href="#servicios" class="categorias-nav-bar">Servicios</a></li>-->
+            <li><a href="../HTML/contacto.html" class="categorias-nav-bar">Contacto</a></li>
+            <!--BOTON DROPDOWN BOOSTRAP-->
+        <div class="div-drow">
+            <button class="btn btn-white dropdown-toggle boton-dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Servicios
+            </button>
+              <ul class="dropdown-menu ul-drop">
+                <li><a class="dropdown-item" href="../HTML/fiestas.html">Fiestas</a></li>
+                <li><a class="dropdown-item" href="../HTML/productos.html">Productos</a></li>
+                <li><a class="dropdown-item" href="../HTML/drone.html">Drone</a></li>
+              </ul>
             </ul>
-        </nav>
-    </header>
-    <!--CARROUSEL-->
-    <div id="carouselExample" class="body-carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../IMAGES/bodas_01.jpg" class="d-block w-100" alt="bodas04">
-        </div>
-        <div class="carousel-item">
-          <img src="../IMAGES/bodas_01.jpg" class="d-block w-100" alt="bodas02">
-        </div>
-        <div class="carousel-item">
-          <img src="../IMAGES/bodas_01.jpg" class="d-block w-100" alt="bodas03">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+          </div>
+          <!--FIN BOTON-->
+        </ul>
+    </nav>
+</header>
 
-    <!--FIN CARROUSEL-->
-    
+  <section class="grid">
+    <div class="grid-item"> 
+      <p class="titulo-fiestas">Momentos para recordar</p>
+    </div> 
+    <div class="grid-item">
+      <!--CARROUSEL-->
+      <div id="carouselExampleIndicators" class="pt-5 container-lg img-fluid carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../IMAGES/bodas_01.jpg" class=" img-fluid d-block w-10 " alt="Pareja recién casada por iglesia">
+          </div>
+          <div class="carousel-item">
+            <img src="../IMAGES/bodas_02.jpg" class=" img-fluid d-block w-10" alt="Pareja recién casada en registo civil">
+          </div>
+          <div class="carousel-item">
+            <img src="../IMAGES/bodas_04-01.jpg" class=" img-fluid w-10" alt="Casamiento tirada de arroz">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--FIN CARROUSEL-->
+    </div>
+  </section>
+      
     <footer>
       <img src="../IMAGES/LOGO_hey.png" alt="Logo Hey Producciones" class="footer-items">
       <a href="https://www.instagram.com/produccioneshey/" class="enlace-instagram footer-items" target="_blank">Instagram</a>
-  </footer>
+    </footer>
     <!--SCRIPT-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>

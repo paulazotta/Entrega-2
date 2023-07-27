@@ -289,25 +289,25 @@ h2{
 .formulario-rellenar:active{
     border: 2px solid #e6e6fa;
 }
-
-
-/*body form input{
-    font-family: ROBOTO-THIN;
-    font-size: 15px;
-    display: flex;
-}
-body form select{
-    font-family: ROBOTO-THIN;
-    font-size: 15px;
-    display: flex;   
-}
-.nombre_apellido{
-    color:black*/
-
-
-
-
 /*-----------------------FIESTAS-----------------------*/
+.grid{
+    display: grid;
+    grid-template-rows: 30px 20fr;
+    grid-template-columns: 1fr;
+    /*border: 3px solid black;*/
+    padding-top: 100px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+/*.grid-item{
+    border: 1px solid red;
+}*/
+.titulo-fiestas{
+    font-family: ROBOTO-MEDIUM;
+    font-size: 1.5rem;
+    color: #9696ea;
+    padding-top: 1rem;
+}
 
 /*-----------------------PRODUCTOS-----------------------*/
 .cuadrado-productos{
@@ -330,7 +330,18 @@ body form select{
     text-align: center;
     color: #536895;
     font-size: 1.1rem;
-    padding-top: 13%;
+    padding-top: 24%;
     margin-left: 3rem;
     margin-right: 3rem;
+}
+/*-----------------------DRONE-----------------------*/
+.titulo-drone{
+    font-family: ROBOTO-MEDIUM;
+    font-size: 1rem;
+    color: #9696ea;
+    padding-top: 6rem;
+    text-align: center;
+}
+.video-drone{
+    padding-top: 3rem;
 }
