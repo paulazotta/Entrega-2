@@ -1,0 +1,355 @@
+/* GENERALES */
+@font-face {
+    font-family: ROBOTO-MEDIUM;
+    src: url(../TIPOGRAFÍAS/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: ROBOTO-THIN;
+    src: url(../TIPOGRAFÍAS/Roboto-Thin.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----------------------HEADER-----------------------*/ /*ESTO YA ESTA MEDIANAMENTE DIGNO*/
+header{ 
+    background-color: white;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 0.7rem 0
+}
+header img{
+    width: 12%;
+    margin-top: 2px;
+    margin-left: 2px;  
+}
+header nav div{
+    display: flex;
+
+}
+header nav ul{
+    list-style: none;
+    display: flex; 
+    margin: 7px 0 0 7px;
+}
+header nav ul li a{
+    margin: 7px;
+}
+li{
+    float:right
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+.categorias-nav-bar{
+    font-family: ROBOTO-MEDIUM;
+    font-size: 1rem;
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 7px;
+    margin-top: 5px;   
+}
+.categorias-nav-bar:hover{
+    font-family: ROBOTO-MEDIUM;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: pink;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 5px;
+} 
+.ul-drop{
+    padding-bottom: 2%;
+}
+.div-drow{
+    padding-bottom: 2%;
+}
+.boton-dropdown{
+    font-family: ROBOTO-MEDIUM;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color:black;
+}
+.boton-dropdown:hover{
+    font-family: ROBOTO-MEDIUM;
+    font-size: 1rem;
+    text-decoration: none;
+    color:white;
+    background-color: pink;
+    padding: 1px;
+}
+.dropdown-item{
+    font-family: ROBOTO-THIN;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+.dropdown-item:hover{
+    font-family: ROBOTO-THIN;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #e6e6fa;
+    background-color: #9696ea;
+}
+
+/*-----------FOOTER------------*/ /*NO ME TERMINA DE CONVENCER, EN WEB SE DEBERÍA VER UN POCO MÁS GRANDE Y EN RESPONSIVE UN POCO MÁS CHICO, LA VIDA NISMAN*/
+footer{
+    background-color: white;
+    border-top: 1px solid black;
+    padding: 8px;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-items{
+    margin: 0 50px 0 0;
+}
+footer img{
+    width: 5rem;
+}
+.enlace-instagram{
+    display: flex;
+    margin-right: 20px;
+    font-family: ROBOTO-THIN;
+    background-color: #e6e6fa;
+    color: #9696ea;
+    font-size: 0.8rem;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 6px;
+}
+.enlace-instagram:hover{
+    display: flex;
+    margin-right: 20px;
+    font-family: ROBOTO-THIN;
+    background-color:#9696ea ;
+    color: white ;
+    font-size: 0.8rem;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 6px;  
+}
+
+/* -----------------------INDEX ---------------------------*/
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.brief-flex-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    background-color: #f0f0f0
+}
+.brief-flex-items{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.2rem;
+}
+
+h1{
+    font-family: ROBOTO-MEDIUM;
+    font-size: 1.8rem;
+    color: #9696ea;
+    padding-top: 1.6%;
+}
+p{
+    font-family: ROBOTO-THIN;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    padding-bottom: 2.5%;
+    margin: 0px 25px;
+}
+video{
+    width: 100%;
+}
+/*RECTANGULOS TRES IMAGENES*/
+h2{
+    /*display: flex;
+    justify-content: center;
+    flex-wrap: wrap;*/
+    background-color: #9696ea;
+    color: #f0f0f0;  
+    font-family: ROBOTO-THIN;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 2%;
+}
+
+/*---------------PRUEBA TEXTO SOBRE IMAGEN----------------*/
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container{
+    width: 367px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    padding: 0;
+    border-radius: 20px;
+    box-shadow: 3px 1px 12px grey;
+    max-width: 85%;
+}
+.container img{
+    width: 25rem;
+    opacity: 70%;
+}
+/*TEXTO SOBRA LA IMAGEN*/
+.container a{
+    font-family: ROBOTO-THIN;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #9696ea;
+    background-color: white;
+    text-shadow: 2px 2px 20px black;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 95%;
+}
+.container a:hover{
+    font-family: ROBOTO-THIN;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+    background-color:#a8a8a8;
+    padding: 6px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*text-shadow: 0 0 8px rgba(0, 0, 0, 0.8)*/
+    opacity: 95%;
+}
+
+/*--------------------------CONTACTO---------------------------------*/
+.body-formulario{
+    display: flex;
+    justify-content: center; 
+}
+.frase1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: ROBOTO-MEDIUM;
+    text-align: center;
+    color: #536895;
+    font-size: 1.2rem;
+    margin: 0px 35px;
+    padding-top: 25%;
+}
+.frase2{
+    display: flex;
+    justify-content: center;
+    margin: 0px 35px;
+    font-family: ROBOTO-THIN;
+    background-color: #e6e6fa;
+    color: #536895;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid #9696ea;
+    border-radius: 7px;
+    padding: 12px; 
+    margin-top: 2rem;
+    padding-bottom: 5px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin-top: 2rem;
+    padding-left: 20%; /*ESTE ES RARO, NO LO PUEDO CENTRAR*/
+}
+.formulario-rellenar{
+    font-family: ROBOTO-THIN;
+    font-size: 1rem;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    border: 1px solid black;
+}
+.formulario-rellenar:active{
+    border: 2px solid #e6e6fa;
+}
+/*-----------------------FIESTAS-----------------------*/
+.grid{
+    display: grid;
+    grid-template-rows: 30px 20fr;
+    grid-template-columns: 1fr;
+    /*border: 3px solid black;*/
+    padding-top: 100px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+/*.grid-item{
+    border: 1px solid red;
+}*/
+.titulo-fiestas{
+    font-family: ROBOTO-MEDIUM;
+    font-size: 1.5rem;
+    color: #9696ea;
+    padding-top: 1rem;
+}
+
+/*-----------------------PRODUCTOS-----------------------*/
+.cuadrado-productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.fotos_productos{
+    width: 30rem;
+    max-width: 85%;
+    margin: 0.5rem;
+    background-color: bisque;
+}
+.titulo-productos{
+    display: flex;
+    justify-content: center;
+    font-family: ROBOTO-MEDIUM;
+    text-align: center;
+    color: #536895;
+    font-size: 1.1rem;
+    padding-top: 24%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+/*-----------------------DRONE-----------------------*/
+.titulo-drone{
+    font-family: ROBOTO-MEDIUM;
+    font-size: 1rem;
+    color: #9696ea;
+    padding-top: 6rem;
+    text-align: center;
+}
+.video-drone{
+    padding-top: 3rem;
+}
+
+/*-----------------------MEDIA QUERIES-----------------------*/
+/*@media screen (max-width 769px){
+    h1{
+        font-size: 2.8rem;
+    }
+}*/

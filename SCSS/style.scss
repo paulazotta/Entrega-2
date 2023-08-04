@@ -1,0 +1,13 @@
+h1{
+    background-color: red($color: #000000);
+    color: #ff0000;
+}
+
+@media screen (max-width 796px){
+    .grid-container{
+        display: grid;
+        border: 3px solid black;
+        grid-template-columns: repeat (2 250px);
+        grid-template-rows: repeat (2 250px);
+    }
+}
