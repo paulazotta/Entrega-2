@@ -1,0 +1,51 @@
+@media (max-width: 550px) {
+    header img{
+        width: 17%; 
+    }
+    header nav ul li a{
+        margin: 3px;
+    }
+    //estas no me las toma
+    .categorias-nav-bar{
+        font-size: 0.5rem;
+    }
+    .categorias-nav-bar:hover{
+        font-size: 0.5rem;
+    }
+    // hasta ahí
+    body div h1{
+        font-size: 1.4rem;
+    }
+    body div p{
+        font-size: 0.9rem;
+    }
+    body h2{
+        font-size: 1rem;
+    }
+    .frase1{
+        font-size: 1rem;
+        padding-top: 29%;
+    }
+    .frase2{
+        font-size: 0.8rem;
+    }
+    .formulario{
+        max-width: 80%;
+    }
+    .titulo-productos{
+        font-size: 1.1rem;
+        padding-top: 25%;
+    }
+    .titulo-drone{
+        font-size: 1.1rem;
+        padding-top: 27%;
+    }
+  
+}
+
+@media (min-width: 551px){
+    .frase1{
+        font-size: 1.3rem;
+        padding-top: 15%;
+    }
+}

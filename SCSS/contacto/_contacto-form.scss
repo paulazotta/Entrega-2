@@ -1,0 +1,51 @@
+
+
+.body-formulario{
+    display: flex;
+    justify-content: center; 
+}
+.frase1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: ROBOTO-MEDIUM;
+    text-align: center;
+    color: #536895;
+    font-size: 1.5rem;
+    margin: 0px 35px;
+    padding-top: 10%;
+}
+.frase2{
+    display: flex;
+    justify-content: center;
+    margin: 0px 35px;
+    font-family: ROBOTO-THIN;
+    background-color: $color-secundario;
+    color: $color-principal;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid $color-principal;
+    border-radius: 7px;
+    padding: 12px; 
+    margin-top: 2rem;
+    padding-bottom: 5px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin-top: 2rem;
+    padding-left: 20%; /*ESTE ES RARO, NO LO PUEDO CENTRAR*/
+}
+.formulario-rellenar{
+    font-family: ROBOTO-THIN;
+    font-size: 1rem;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    border: 1px solid black;
+}
+.formulario-rellenar:active{
+    border: 2px solid $color-secundario;
+}
+
+    

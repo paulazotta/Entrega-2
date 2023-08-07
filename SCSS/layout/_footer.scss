@@ -1,0 +1,38 @@
+footer{
+    background-color: white;
+    border-top: 1px solid black;
+    padding: 8px;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 5rem;
+    .footer-items{
+        margin: 0 50px 0 0;
+    
+    }
+    }
+    .enlace-instagram{
+        display: flex;
+        margin-right: 20px;
+        font-family: ROBOTO-THIN;
+        background-color: #e6e6fa;
+        color: #9696ea;
+        font-size: 0.8rem;
+        text-decoration: none;
+        padding: 7px;
+        border-radius: 6px;
+    }
+    .enlace-instagram:hover{
+        display: flex;
+        margin-right: 20px;
+        font-family: ROBOTO-THIN;
+        background-color:#9696ea ;
+        color: white ;
+        font-size: 0.8rem;
+        text-decoration: none;
+        padding: 7px;
+        border-radius: 6px;  
+    }
+}
