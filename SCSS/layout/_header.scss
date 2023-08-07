@@ -5,6 +5,7 @@ header{
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    z-index: 1 !important;
     padding: 0.7rem 0;
         img{
             width: 12%;
