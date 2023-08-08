@@ -2,22 +2,24 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: linear-gradient(to top, $color-secundario, white);
     div{
         h1{
-        font-family: ROBOTO-MEDIUM;
+        
         font-size: 1.8rem;
         color: $color-principal;
         padding-top: 6.5rem;
         text-align: center;
     }
     p{
-        font-family: ROBOTO-THIN;
+        
         font-size: 1rem;
         text-align: center;
-        color: black;
-        padding-top: 4%;
-        padding-bottom: 2.5%;
-        margin: 0px 25px;   
+        color: white;
+        background-color: $color-principal;
+        padding-top: 2%;
+        padding-bottom: 2.2%;
+        margin: 0px 0px;   
     }
     }
     video{
@@ -26,7 +28,7 @@ body{
     h2{
         background-color: $color-principal;
         color: #f0f0f0;  
-        font-family: ROBOTO-THIN;
+        
         font-size: 1.3rem;
         text-align: center;
         padding: 2%;

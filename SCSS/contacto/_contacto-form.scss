@@ -8,7 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-family: ROBOTO-MEDIUM;
+    //font-family: ROBOTO-MEDIUM;
     text-align: center;
     color: #536895;
     font-size: 1.5rem;
@@ -19,11 +19,12 @@
     display: flex;
     justify-content: center;
     margin: 0px 35px;
-    font-family: ROBOTO-THIN;
+    //font-family: ROBOTO-THIN;
     background-color: $color-secundario;
     color: $color-principal;
     font-size: 1rem;
     text-align: center;
+    align-items: center;
     border: 1px solid $color-principal;
     border-radius: 7px;
     padding: 12px; 
@@ -34,11 +35,11 @@
     display: flex;
     flex-direction: column;
     max-width: 70%;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding-left: 20%; /*ESTE ES RARO, NO LO PUEDO CENTRAR*/
 }
 .formulario-rellenar{
-    font-family: ROBOTO-THIN;
+    //font-family: ROBOTO-THIN;
     font-size: 1rem;
     margin-top: 2px;
     margin-bottom: 1px;

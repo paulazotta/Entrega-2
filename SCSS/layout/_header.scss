@@ -25,64 +25,64 @@ header{
                             text-align: center;
                             padding: 14px 16px;
                         }
-                        
+                        .categorias-nav-bar{
+                            /*font-family: ROBOTO-MEDIUM;*/
+                            font-size: 1rem;
+                            text-decoration: none;
+                            color:black;
+                            background-color: white;
+                            border-radius: 5px;
+                            padding: 7px;
+                            margin-top: 5px;  
+                        } 
+                        .categorias-nav-bar:hover{
+                            /*font-family: ROBOTO-MEDIUM;*/
+                            font-size: 1rem;
+                            text-decoration: none;
+                            color: white;
+                            background-color: pink;
+                            border-radius: 4px;
+                            margin: 10px;
+                            padding: 5px;
+                        } 
+                    }
+                    .ul-drop{
+                        padding-top: 3.2px;
+                    }
+                    .div-drow{
+                        padding-top: 3.2px;
+                    }
+                    .boton-dropdown{
+                        /*font-family: ROBOTO-MEDIUM;*/
+                        font-size: 1rem;
+                        text-decoration: none;
+                        color:black;
+                    }
+                    .boton-dropdown:hover{
+                        /*font-family: ROBOTO-MEDIUM;*/
+                        font-size: 1rem;
+                        text-decoration: none;
+                        color:white;
+                        background-color: pink;
+                        padding: 1px;
+                    }
+                    .dropdown-item{
+                        /*font-family: ROBOTO-THIN;*/
+                        font-size: 1rem;
+                        text-decoration: none;
+                        color: black;
+                    }
+                    .dropdown-item:hover{
+                        /*font-family: ROBOTO-THIN;*/
+                        font-size: 1rem;
+                        text-decoration: none;
+                        color: $color-secundario;
+                        background-color: $color-principal;
                     }
             }
         
 
     }
-    .categorias-nav-bar{
-        font-family: ROBOTO-MEDIUM;
-        font-size: 1.2rem;
-        text-decoration: none;
-        color:black;
-        background-color: white;
-        border-radius: 5px;
-        padding: 7px;
-        margin-top: 5px;  
-    } 
-    .categorias-nav-bar:hover{
-        font-family: ROBOTO-MEDIUM;
-        font-size: 1.2rem;
-        text-decoration: none;
-        color: white;
-        background-color: pink;
-        border-radius: 4px;
-        margin: 10px;
-        padding: 5px;
-    } 
-    .ul-drop{
-        padding-bottom: 2%;
-    }
-    .div-drow{
-        padding-bottom: 2%;
-    }
-    .boton-dropdown{
-        font-family: ROBOTO-MEDIUM;
-        font-size: 0.9rem;
-        text-decoration: none;
-        color:black;
-    }
-    .boton-dropdown:hover{
-        font-family: ROBOTO-MEDIUM;
-        font-size: 1rem;
-        text-decoration: none;
-        color:white;
-        background-color: pink;
-        padding: 1px;
-    }
-    .dropdown-item{
-        font-family: ROBOTO-THIN;
-        font-size: 1rem;
-        text-decoration: none;
-        color: black;
-    }
-    .dropdown-item:hover{
-        font-family: ROBOTO-THIN;
-        font-size: 1rem;
-        text-decoration: none;
-        color: $color-secundario;
-        background-color: $color-principal;
-    }
+    
     
 }

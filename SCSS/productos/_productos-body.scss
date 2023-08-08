@@ -2,23 +2,27 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 3%;
+    padding-top: 2%;
     padding-bottom: 3%;
+    .fotos_productos{
+        width: 30rem;
+        max-width: 85%;
+        margin: 0.5rem;
+        transition: all 1s;
+    }
+    .fotos_productos:hover{
+        width: 35rem;
+    }
 }
-.fotos_productos{
-    width: 30rem;
-    max-width: 85%;
-    margin: 0.5rem;
-    background-color: bisque;
-}
+
 .titulo-productos{
     display: flex;
     justify-content: center;
-    font-family: ROBOTO-MEDIUM;
+    //font-family: ROBOTO-MEDIUM;
     text-align: center;
     color: #536895;
     font-size: 1.5rem;
-    padding-top: 13%;
+    padding-top: 10%;
     margin-left: 3rem;
     margin-right: 3rem;
 }
