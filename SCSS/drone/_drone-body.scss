@@ -1,10 +1,14 @@
 .titulo-drone{
     //font-family: ROBOTO-MEDIUM;
     font-size: 1.5rem;
-    color: $color-principal;
+    color: $color-titulos;
     //background-image: linear-gradient(to top, $color-secundario, pink);
-    padding: 6rem;
+    padding-top: 8rem;
     text-align: center;
+}
+.video-drone{
+    padding-top: 2rem;
+    padding-bottom: 5rem;
 }
 
 

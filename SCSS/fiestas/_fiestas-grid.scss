@@ -4,9 +4,9 @@
     grid-template-rows: repeat(2, 400px);
     margin-top: 100px;
     margin-bottom: 10px;
-    border: 3px solid black;
+    //border: 3px solid black;
     .grid-item{
-        border: 1px solid salmon;
+        //border: 1px solid salmon;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -18,32 +18,31 @@
         background-image: linear-gradient(to right, $color-principal, $color-secundario);
         padding: 20px;
         border-radius: 20px;
-        transform: translateX(20px);
     }
     
     .cuarto-elemento video{
-        width: 95%;
+        width: 96%;
     }
 }
 
 
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 550px){
     
     .grid-container{
         grid-template-columns: 1fr;
-        grid-template-rows: 70px 250px 70px 250px;
+        grid-template-rows: 80px 250px 100px 250px;
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 30px;
     }
     .grid-container .item-texto p{
-        color: $color-principal;
+        //color: $color-principal;
         text-align: center;
         font-size: 1rem;
-        background-color: white;
-        background-image: linear-gradient(to top, white, white);
-        padding: 20px;
+        //background-color: white;
+        //background-image: linear-gradient(to top, white, white);
+        padding: 10px;
         border-radius: 20px;
     }
     
