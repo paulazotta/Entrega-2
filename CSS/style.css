@@ -49,15 +49,13 @@ header nav ul li .categorias-nav-bar:hover {
   text-decoration: none;
   color: white;
   background-color: pink;
-  border-radius: 4px;
-  margin: 10px;
-  padding: 5px;
+  border-radius: 6px;
 }
 header nav ul .ul-drop {
-  padding-top: 3.2px;
+  padding-top: 3px;
 }
 header nav ul .div-drow {
-  padding-top: 3.2px;
+  padding-top: 3px;
 }
 header nav ul .boton-dropdown {
   /*font-family: ROBOTO-MEDIUM;*/
@@ -71,7 +69,6 @@ header nav ul .boton-dropdown:hover {
   text-decoration: none;
   color: white;
   background-color: pink;
-  padding: 1px;
 }
 header nav ul .dropdown-item {
   /*font-family: ROBOTO-THIN;*/
@@ -85,8 +82,44 @@ header nav ul .dropdown-item:hover {
   text-decoration: none;
   color: #e6e6fa;
   background-color: #9696ea;
+  border-radius: 8px;
 }
 
+@media screen and (max-width: 550px) {
+  header img {
+    width: 17%;
+  }
+  header nav ul li a {
+    margin: 3px;
+  }
+  .categorias-nav-bar {
+    font-size: 0.5rem;
+    padding: 2px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+  }
+  .categorias-nav-bar:hover {
+    font-size: 0.5rem;
+    color: white;
+    background-color: pink;
+    border-radius: 6px;
+  }
+  .dropdown-item {
+    /*font-family: ROBOTO-THIN;*/
+    font-size: 0.5rem;
+    text-decoration: none;
+    color: black;
+  }
+  .dropdown-item:hover {
+    /*font-family: ROBOTO-THIN;*/
+    font-size: 0.5rem;
+    text-decoration: none;
+    color: #e6e6fa;
+    background-color: #9696ea;
+    border-radius: 8px;
+  }
+}
 footer {
   background-color: white;
   border-top: 1px solid black;
@@ -387,7 +420,7 @@ body h2 {
   border: 2px solid #e6e6fa;
 }
 
-@media (max-width: 550px) {
+@media screen and (max-width: 550px) {
   header img {
     width: 17%;
   }
