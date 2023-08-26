@@ -1,20 +1,5 @@
 @media screen and (max-width: 550px) {
-    //HEADER 
-    header img{
-        width: 17%; 
-    }
-    header nav ul li a{
-        margin: 3px;
-    }
-    //estas no me las toma
-    .categorias-nav-bar{
-        font-size: 0.5rem;
-        padding: 2px;
-    }
-    .categorias-nav-bar:hover{
-        font-size: 0.5rem;
-    }
-    // hasta ahí
+
     //INDEX
     body div h1{
         font-size: 1.4rem;
@@ -41,6 +26,9 @@
     .formulario{
         max-width: 80%;
     }
+   .frase2{
+    margin-bottom: 15px;
+   }
     // PRODUCTOS
     .titulo-productos{
         font-size: 1rem;

@@ -421,19 +421,6 @@ body h2 {
 }
 
 @media screen and (max-width: 550px) {
-  header img {
-    width: 17%;
-  }
-  header nav ul li a {
-    margin: 3px;
-  }
-  .categorias-nav-bar {
-    font-size: 0.5rem;
-    padding: 2px;
-  }
-  .categorias-nav-bar:hover {
-    font-size: 0.5rem;
-  }
   body div h1 {
     font-size: 1.4rem;
     padding-top: 6rem;
@@ -456,6 +443,9 @@ body h2 {
   }
   .formulario {
     max-width: 80%;
+  }
+  .frase2 {
+    margin-bottom: 15px;
   }
   .titulo-productos {
     font-size: 1rem;
