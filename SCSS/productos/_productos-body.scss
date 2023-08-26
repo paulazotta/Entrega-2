@@ -1,28 +1,70 @@
-.cuadrado-productos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 2%;
-    padding-bottom: 3%;
-    .fotos_productos{
-        width: 30rem;
-        max-width: 85%;
-        margin: 0.5rem;
-        transition: all 1s;
-    }
-    .fotos_productos:hover{
-        width: 35rem;
-    }
+.titulo-productos{
+    font-size: 1.8rem;
+    color: $color-titulos;
+    padding-top: 7.3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    
+}
+.grid-productos{ 
+    display: grid; 
+    grid-template-columns: repeat(2, 2fr) 1fr; 
+    grid-template-rows: repeat(2, 250px); 
+    //border: 2px solid blue; 
+    margin: 20px;
+    margin-top: 40px;
+    margin-right: 80px;
+}
+.quinto-item-producto{ 
+    grid-column: 3/4; 
+    grid-row: 1/3; 
+    //border: 2px solid green; 
+    //background-color: aquamarine;
+}
+.grid-item-producto{ 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    //border: 1px solid orange;
+}
+.fotos_productos{ 
+    width: 75%;
+}
+.fotos_productos:hover{
+    width: 85%;
+}
+.video-productos{ 
+    width: 100%;
+}
+.video-productos:hover{
+    width: 110%;
 }
 
-.titulo-productos{
-    display: flex;
-    justify-content: center;
-    //font-family: ROBOTO-MEDIUM;
-    text-align: center;
-    color: #536895;
-    font-size: 1.5rem;
-    padding-top: 10%;
-    margin-left: 3rem;
-    margin-right: 3rem;
+//MEDIA QUERY
+@media screen and (max-width: 650px){ 
+    .grid-productos{ grid-template-columns: 1fr; 
+        grid-template-rows: repeat(4, 300px) 900px; 
+        //border: 2px solid pink; 
+        margin: 10px;
+    } 
+    .quinto-item-producto{ 
+        grid-column: 1/2; 
+        grid-row: 5/6; 
+    } 
+    .imagenes-productos{ 
+        width: 90%; 
+    } 
+    .video-productos{ 
+        width: 75%;
+    }
+    .video-productos:hover{
+        width: 97%;
+    }
+    .titulo-productos{
+        font-size: 1.4rem;
+        padding-top: 6rem;
+        padding-bottom: 1rem;
+    }
+    
 }
