@@ -186,7 +186,7 @@ body div p {
   margin: 0px 0px;
   max-width: 85%;
 }
-body video {
+body .video-presentacion {
   width: 100%;
 }
 body h2 {
@@ -195,7 +195,6 @@ body h2 {
   font-size: 1.3rem;
   text-align: center;
   padding: 2%;
-  margin-top: 3px;
 }
 
 .flex-container {
